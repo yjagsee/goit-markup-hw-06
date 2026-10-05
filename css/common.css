@@ -1,45 +1,46 @@
 body {
-    color: #2e2f42;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
 }
 
 .header .link-logo span,
 .footer .link-logo span {
-    color: #4d5ae5;
+  color: #4d5ae5;
 }
 
 .button {
-    background-color: #4d5ae5;
+  background-color: #4d5ae5;
 }
 
 .link {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .address {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
 }
 
-ul, ol {
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 
 .link:hover,
 .link:focus {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #404bbf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
 
 .sr-only {
@@ -56,30 +57,48 @@ ul, ol {
 }
 
 .container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  max-width: 320px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-ul, h1, h2, h3, p {
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+ul,
+h1,
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    background-color: #4d5ae5;
-    cursor: pointer;
-    color: #ffffff;
-    padding: 16px 32px;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    transition: background-color 250ms ease;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms ease-in-out;
+  color: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

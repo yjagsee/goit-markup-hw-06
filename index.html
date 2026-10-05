@@ -26,6 +26,11 @@
         <a class="link-logo" href="./index.html"
           ><span class="accent-word">Web</span>Studio</a
         >
+        <button class="header-menu-btn" type="button">
+          <svg class="header-menu-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
         <nav class="nav">
           <ul class="list">
             <li class="list-item">
@@ -120,7 +125,12 @@
           <h2 class="section-title">Our Team</h2>
           <ul class="list">
             <li class="list-item">
-              <img src="./images/team-1.jpg" alt="Mark Guerrero" width="264" />
+              <img
+                src="./images/team-1.jpg"
+                srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
+                alt="Mark Guerrero"
+                width="264"
+              />
               <div class="team-content-wrapper">
                 <h3 class="subtitle">Mark Guerrero</h3>
                 <p class="text">Product Designer</p>
@@ -172,7 +182,12 @@
               </div>
             </li>
             <li class="list-item">
-              <img src="./images/team-2.jpg" alt="Tom Ford" width="264" />
+              <img
+                src="./images/team-2.jpg"
+                srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="team-content-wrapper">
                 <h3 class="subtitle">Tom Ford</h3>
                 <p class="text">Frontend Developer</p>
@@ -224,7 +239,12 @@
               </div>
             </li>
             <li class="list-item">
-              <img src="./images/team-3.jpg" alt="Camila Garcia" width="264" />
+              <img
+                src="./images/team-3.jpg"
+                srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
+                alt="Camila Garcia"
+                width="264"
+              />
               <div class="team-content-wrapper">
                 <h3 class="subtitle">Camila Garcia</h3>
                 <p class="text">Marketing</p>
@@ -276,7 +296,12 @@
               </div>
             </li>
             <li class="list-item">
-              <img src="./images/team-4.jpg" alt="Daniel Wilson" width="264" />
+              <img
+                src="./images/team-4.jpg"
+                srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
+                alt="Daniel Wilson"
+                width="264"
+              />
               <div class="team-content-wrapper">
                 <h3 class="subtitle">Daniel Wilson</h3>
                 <p class="text">UI Designer</p>
@@ -340,6 +365,10 @@
                 <img
                   class="portfolio-img"
                   src="./images/portfolio-1.jpg"
+                  srcset="
+                    ./images/potfolio-1.jpg     1x,
+                    ./images/portfolio-1@2x.jpg 2x
+                  "
                   alt="banking-app"
                   width="360"
                 />
@@ -357,6 +386,10 @@
                 <img
                   class="portfolio-img"
                   src="./images/portfolio-2.jpg"
+                  srcset="
+                    ./images/potfolio-2.jpg     1x,
+                    ./images/portfolio-2@2x.jpg 2x
+                  "
                   alt="payment"
                   width="360"
                 />
@@ -378,6 +411,10 @@
                 <img
                   class="portfolio-img"
                   src="./images/portfolio-3.jpg"
+                  srcset="
+                    ./images/potfolio-3.jpg     1x,
+                    ./images/portfolio-3@2x.jpg 2x
+                  "
                   alt="meditation"
                   width="360"
                 />
@@ -395,6 +432,10 @@
                 <img
                   class="portfolio-img"
                   src="./images/portfolio-4.jpg"
+                  srcset="
+                    ./images/potfolio-4.jpg     1x,
+                    ./images/portfolio-4@2x.jpg 2x
+                  "
                   alt="taxi"
                   width="360"
                 />
@@ -412,6 +453,10 @@
                 <img
                   class="portfolio-img"
                   src="./images/portfolio-5.jpg"
+                  srcset="
+                    ./images/potfolio-5.jpg     1x,
+                    ./images/portfolio-5@2x.jpg 2x
+                  "
                   alt="screen"
                   width="360"
                 />
@@ -429,6 +474,10 @@
                 <img
                   class="portfolio-img"
                   src="./images/portfolio-6.jpg"
+                  srcset="
+                    ./images/potfolio-6.jpg     1x,
+                    ./images/portfolio-6@2x.jpg 2x
+                  "
                   alt="online-sourses"
                   width="360"
                 />
@@ -510,7 +559,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open" id="modal">
+    <div class="backdrop" id="modal">
       <div class="modal">
         <button class="modal-btn" type="button">
           <svg
