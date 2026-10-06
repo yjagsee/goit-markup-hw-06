@@ -59,16 +59,8 @@ ol {
 .container {
   max-width: 320px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 @media (min-width: 1158px) {

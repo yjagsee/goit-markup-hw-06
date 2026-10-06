@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 288px;
+  min-width: 320px;
   width: 100%;
   gap: 72px;
   padding: 96px 16px;
@@ -20,8 +20,8 @@
 .features .list-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 8px;
 }
 
@@ -53,4 +53,16 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+@media (min-width: 768px) and (max-width: 1157.98px) {
+  .features .container {
+    min-width: 768px;
+  }
+
+  .features .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 72px 24px;
+  }
 }

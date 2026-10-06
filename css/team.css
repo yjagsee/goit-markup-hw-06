@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 264px;
+  min-width: 320px;
   width: 100%;
   padding: 96px 28px;
   gap: 72px;
@@ -102,4 +102,17 @@
 
 .team .icon {
   color: #f4f4fd;
+}
+
+@media (min-width: 768px) and (max-width: 1157.98px) {
+  .team .container {
+    min-width: 768px;
+    padding: 96px 108px;
+  }
+
+  .team .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px 24px;
+  }
 }

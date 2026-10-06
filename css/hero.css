@@ -3,22 +3,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 320px;
+  min-width: 320px;
   width: 100%;
   margin: 0 auto;
-  padding: 72px 15px;
+  padding: 72px 16px;
   color: #ffffff;
   background-color: #2e2f42;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     image-set(
       url('../images/dark-bg.jpg') 1x,
-      url('../images/Dark-bg @2x.jpg 2x')
+      url('../images/dark-bg@2x.jpg') 2x
     );
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  align-items: center;
+  background-size: 100% auto;
 }
 
 .page-title {
@@ -49,4 +48,27 @@
 .hero .button:focus,
 .hero .button:hover {
   background-color: #404bbf;
+}
+
+@media (min-width: 768px) {
+  .hero .container {
+    min-width: 768px;
+    padding: 112px 16px;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      image-set(
+        url('../images/dark-bg-tb.jpg') 1x,
+        url('../images/dark-bg-tb@2x.jpg') 2x
+      );
+  }
+
+  .page-title {
+    max-width: 496px;
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
 }
