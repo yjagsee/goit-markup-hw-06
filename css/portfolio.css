@@ -117,3 +117,19 @@
     min-width: 365px;
   }
 }
+
+@media (min-width: 1158px) {
+  .portfolio .container {
+    min-width: 1158px;
+    padding: 120px 15px;
+  }
+
+  .portfolio .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}

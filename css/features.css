@@ -27,15 +27,15 @@
 
 .features .icon.soc-icon {
   display: none;
-  width: auto;
+  align-items: center;
+  justify-content: center;
+  min-width: 264px;
   height: 112px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   margin-bottom: 8px;
   color: #4d5ae5;
-  align-items: center;
-  justify-content: center;
 }
 
 .features .subtitle {
@@ -47,7 +47,7 @@
   text-align: center;
 }
 
-.features .list .text {
+.features .text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -64,5 +64,34 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 72px 24px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .features .container {
+    min-width: 1158px;
+    padding: 120px 15px;
+  }
+
+  .features .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .features .icon.soc-icon {
+    display: flex;
+  }
+
+  .features .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .features .text {
+    font-weight: 400;
   }
 }
