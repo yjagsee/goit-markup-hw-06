@@ -96,8 +96,8 @@
   gap: 12px;
 }
 
-.address .link-mailto,
-.address .link-tel {
+.header .address .link-mailto,
+.header .address .link-tel {
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
