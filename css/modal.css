@@ -28,7 +28,7 @@
   border-radius: 4px;
   padding: 72px 16px 24px 16px;
   width: 288px;
-  min-height: 582px;
+  min-height: 584px;
   box-shadow:
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -235,4 +235,10 @@
 
 .modal-form-field.comment-field {
   margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal {
+    min-width: 408px;
+  }
 }

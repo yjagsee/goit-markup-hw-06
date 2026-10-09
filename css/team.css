@@ -103,7 +103,7 @@
   color: #f4f4fd;
 }
 
-@media (min-width: 768px) and (max-width: 1157.98px) {
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
   .team .container {
     min-width: 768px;
     padding: 96px 108px;
@@ -116,7 +116,7 @@
   }
 }
 
-@media (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
   .team .container {
     min-width: 1158px;
     padding: 120px 15px;
