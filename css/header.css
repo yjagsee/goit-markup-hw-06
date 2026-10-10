@@ -3,10 +3,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0 16px;
-  min-width: 320px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .header .link-logo {
@@ -33,7 +29,7 @@
   align-items: center;
   border: none;
   background-color: transparent;
-  margin-left: 149px;
+  margin-left: auto;
   right: 0;
   top: 0;
   padding: 0;
@@ -115,7 +111,7 @@
   color: #404bbf;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
+@media only screen and (min-width: 768px) {
   .header .container {
     min-width: 768px;
     padding: 0 15px;
@@ -131,6 +127,8 @@
 
   .header .nav {
     display: flex;
+    margin-left: 120px;
+    margin-right: auto;
   }
 
   .header .address {
