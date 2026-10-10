@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 264px;
+  max-width: 264px;
   width: 100%;
   gap: 16px;
 }
@@ -186,15 +186,25 @@
     width: 100%;
   }
 
+  .footer-list-title {
+    text-align: left;
+  }
+
   .footer-social {
     max-width: 208px;
     width: 100%;
+    justify-content: flex-start;
     align-items: flex-start;
   }
 
   .footer-form {
     flex-direction: row;
     gap: 24px;
+  }
+
+  .footer-form-input {
+    min-width: 264px;
+    width: 100%;
   }
 }
 

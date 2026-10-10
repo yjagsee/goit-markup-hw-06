@@ -57,7 +57,7 @@ ol {
 }
 
 .container {
-  min-width: 320px;
+  max-width: 320px;
   width: 100%;
   margin: 0 auto;
   padding: 0 16px;
@@ -65,14 +65,14 @@ ol {
 
 @media only screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
     width: 100%;
   }
 }
 
 @media (min-width: 1158px) {
   .container {
-    min-width: 1158px;
+    max-width: 1158px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
