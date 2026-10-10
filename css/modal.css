@@ -239,6 +239,8 @@
 
 @media only screen and (min-width: 768px) {
   .modal {
-    min-width: 408px;
+    max-width: 408px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }

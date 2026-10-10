@@ -104,6 +104,10 @@
   transition: color 250ms ease-in-out;
 }
 
+.mobile-menu .address .link-tel {
+  color: #4d5ae5;
+}
+
 .mobile-menu .address .link-mailto:hover,
 .mobile-menu .address .link-tel:hover,
 .mobile-menu .address .link-mailto:focus,

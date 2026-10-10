@@ -86,21 +86,24 @@
 
 @media only screen and (min-width: 1158px) {
   .hero {
+    max-width: 1440px;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       image-set(
         url('../images/dark-bg-dt.jpg') 1x,
         url('../images/dark-bg-dt@2x.jpg') 2x
       );
+    margin: 0 auto;
   }
 
   .hero .container {
     min-width: 1158px;
-    padding: 120px 15px;
+    padding: 188px 15px;
   }
 
   .page-title {
     font-size: 56px;
     line-height: 1.07;
+    margin-bottom: 48px;
   }
 }
